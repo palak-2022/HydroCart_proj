@@ -1,0 +1,606 @@
+<style>
+#header{
+position:absolute;
+background-color:rgba(0,0,255,0.2);
+width:100%;
+height:15%;
+left:0%;
+top:0%;
+box-shadow:0px 0px 10px #898c8c;
+}
+#middle{
+position:absolute;
+background-color:rgba(100,100,255,0.2);
+width:100%;
+height:75%;
+left:0%;
+top:15%;
+box-shadow:0px 0px 10px #898c8c;
+}
+#footer{
+position:absolute;
+background-color:rgba(0,0,255,0.2);
+width:100%;
+height:10%;
+left:0%;
+top:90%;
+box-shadow:0px 0px 10px #898c8c;
+}
+#ff1
+{
+position:absolute;
+top:0%;
+left:32%;
+font-family:arial;
+font-size:1.5w;
+color:white;
+text-align:center;
+}
+#ff2
+{
+position:absolute;
+top:15%;
+left:37%;
+font-family:arial black;
+font-size:1.5w;
+color:white;
+text-align:center;
+}
+#f1{
+position:absolute;
+left:33%;
+top:50%;
+}
+ul{
+list-style:none;
+
+}
+
+ ul li{
+ background-color:blue;
+ width:100px;
+ height:30px;
+ border:2px solid white;
+ text-align:center;
+ font-family:cooper;
+ float:left;
+ 
+ }
+ f{
+ text-decoration:none;
+ color:black;
+ display:block
+ }
+ ul li:hover{background-color:grey;}
+ *{
+ padding:0px;
+ margin:0px;
+ }
+ ul ul{
+ visibility:hidden;
+ 
+ }
+ ul li:hover ul{
+ visibility:visible;
+ }
+ ul ul ul{
+ position:relative;
+ left:100%;
+ top:-100%;
+ display:none;
+ }
+   ul ul li:hover ul{
+   display:block;
+   }
+#logo{
+position:absolute;
+width:10%;
+height:100%;
+left:0%;
+top:0%;
+box-shadow:0px 0px 10px #898c8c;
+border-radius:50%;
+overflow:hidden;
+}
+#name{
+position:absolute;
+width:50%;
+height:100%;
+left:12%;
+top:10%;
+font-size:4vw;
+font-family:cooper black;
+color:#b0ccd1;
+}
+#wm1{
+animation:abc1 2s infinite;
+
+}
+@keyframes abc1{
+0%  {color:white;font-size:3vw;}
+100%{color:#0c9cf0;font-size:4vw;}
+}
+#wm2{
+animation:abc2 2s infinite;
+animation-delay:1s;
+}
+@keyframes abc2{
+0%  {color:white;font-size:3vw;}
+100%{color:#0c9cf0;font-size:4vw;}
+}
+#wm3{
+animation:abc3 2s infinite;
+animation-delay:2s;
+}
+@keyframes abc3{
+0%  {color:white;font-size:3vw;}
+100%{color:#0c9cf0;font-size:4vw;}
+}
+#wm4{
+animation:abc4 2s infinite;
+animation-delay:3s;
+}
+@keyframes abc4{
+0%  {color:white;font-size:3vw;}
+100%{color:#0c9cf0;font-size:4vw;}
+}
+#wm5{
+animation:abc5 2s infinite;
+animation-delay:4s;
+}
+@keyframes abc5{
+0%  {color:white;font-size:3vw;}
+100%{color:#0c9cf0;font-size:4vw;}
+}
+#wm6{
+animation:abc6 2s infinite;
+animation-delay:5s;
+}
+@keyframes abc6{
+0%  {color:white;font-size:3vw;}
+100%{color:#0c9cf0;font-size:4vw;}
+}
+#wm7{
+animation:abc7 2s infinite;
+animation-delay:6s;
+}
+@keyframes abc7{
+0%  {color:white;font-size:3vw;}
+100%{color:#0c9cf0;font-size:4vw;}
+}
+#wm8{
+animation:abc8 2s infinite;
+animation-delay:7s;
+}
+@keyframes abc8{
+0%  {color:white;font-size:3vw;}
+100%{color:#0c9cf0;font-size:4vw;}
+}
+#wm9{
+animation:abc9 2s infinite;
+animation-delay:8s;
+}
+@keyframes abc9{
+0%  {color:white;font-size:3vw;}
+100%{color:#0c9cf0;font-size:4vw;}
+}
+#wm10{
+animation:abc10 2s infinite;
+animation-delay:9s;
+}
+@keyframes abc10{
+0%  {color:white;font-size:3vw;}
+100%{color:#0c9cf0;font-size:4vw;}
+}
+
+#menu{
+position:absolute;
+width:50%;
+height:100%;
+left:50%;
+top:20%;
+}
+
+a{
+text-decoration:none;
+color:white;	
+}
+.c{
+position:absolute;
+background-color:rgba(245,40,145,0);
+width:120px;
+height:40px;
+line-height:40px;
+text-align:center;
+font-size:1.5vw;
+border-top-left-radius:10px;
+border-bottom-right-radius:10px;
+box-shadow:0px 0px 5px gray; 
+}
+.c:hover{background-color:gray;}
+#a1{left:5%;}
+#a2{left:25%;}
+#a3{left:45%;}
+#a4{left:65%;}
+#a5{left:85%;}
+
+.c1{
+background-color:red;
+color:white;
+position:absolute;
+left:5%;
+width:200px;
+height:40px;
+text-align:center;
+line-height:30px;
+cursor:pointer;
+
+}
+#aa1{top:8%;}
+#aa2{top:16%;}
+#aa3{top:24%;}
+#aa4{top:32%;}
+#aa5{top:40%;}
+#aa6{top:48%;}
+#aa7{top:56%;}
+#aa8{top:64%;}
+#aa9{top:72%;}
+#aa10{top:80%;}
+#aa11{top:88%;}
+
+.b{
+position:absolute;
+top:10%;
+left:20%;
+width:80%;
+height:80%;
+visibility:hidden;
+font-size:2.0vw;
+font-family:berlin sans fb;
+}
+.sp{
+position:absolute;
+top:0%;
+right:1%;
+width:5%;
+height:7%;
+border:1px solid black;
+text-align:center;
+font-size:2vw;
+cursor:pointer;
+
+}
+.sp:hover{background-color:red;color:white;}
+</style>
+<script>
+function show1(){
+document.getElementById("x1").style.visibility="visible";
+document.getElementById("x2").style.visibility="hidden";
+document.getElementById("x3").style.visibility="hidden";
+document.getElementById("x4").style.visibility="hidden";
+document.getElementById("x5").style.visibility="hidden";
+document.getElementById("x6").style.visibility="hidden";
+document.getElementById("x7").style.visibility="hidden";
+document.getElementById("x8").style.visibility="hidden";
+document.getElementById("x9").style.visibility="hidden";
+document.getElementById("x10").style.visibility="hidden";
+document.getElementById("x11").style.visibility="hidden";
+}
+function show2(){
+document.getElementById("x2").style.visibility="visible";
+document.getElementById("x1").style.visibility="hidden";
+document.getElementById("x3").style.visibility="hidden";
+document.getElementById("x4").style.visibility="hidden";
+document.getElementById("x5").style.visibility="hidden";
+document.getElementById("x6").style.visibility="hidden";
+document.getElementById("x7").style.visibility="hidden";
+document.getElementById("x8").style.visibility="hidden";
+document.getElementById("x9").style.visibility="hidden";
+document.getElementById("x10").style.visibility="hidden";
+document.getElementById("x11").style.visibility="hidden";
+}
+function show3(){
+document.getElementById("x3").style.visibility="visible";
+document.getElementById("x2").style.visibility="hidden";
+document.getElementById("x1").style.visibility="hidden";
+document.getElementById("x4").style.visibility="hidden";
+document.getElementById("x5").style.visibility="hidden";
+document.getElementById("x6").style.visibility="hidden";
+document.getElementById("x7").style.visibility="hidden";
+document.getElementById("x8").style.visibility="hidden";
+document.getElementById("x9").style.visibility="hidden";
+document.getElementById("x10").style.visibility="hidden";
+document.getElementById("x11").style.visibility="hidden";
+}
+function show4(){
+document.getElementById("x4").style.visibility="visible";
+document.getElementById("x1").style.visibility="hidden";
+document.getElementById("x2").style.visibility="hidden";
+document.getElementById("x3").style.visibility="hidden";
+document.getElementById("x5").style.visibility="hidden";
+document.getElementById("x6").style.visibility="hidden";
+document.getElementById("x7").style.visibility="hidden";
+document.getElementById("x8").style.visibility="hidden";
+document.getElementById("x9").style.visibility="hidden";
+document.getElementById("x10").style.visibility="hidden";
+document.getElementById("x11").style.visibility="hidden";
+}
+function show5(){
+document.getElementById("x5").style.visibility="visible";
+document.getElementById("x1").style.visibility="hidden";
+document.getElementById("x2").style.visibility="hidden";
+document.getElementById("x3").style.visibility="hidden";
+document.getElementById("x4").style.visibility="hidden";
+document.getElementById("x6").style.visibility="hidden";
+document.getElementById("x7").style.visibility="hidden";
+document.getElementById("x8").style.visibility="hidden";
+document.getElementById("x9").style.visibility="hidden";
+document.getElementById("x10").style.visibility="hidden";
+document.getElementById("x11").style.visibility="hidden";
+}
+function show6(){
+document.getElementById("x6").style.visibility="visible";
+document.getElementById("x1").style.visibility="hidden";
+document.getElementById("x2").style.visibility="hidden";
+document.getElementById("x3").style.visibility="hidden";
+document.getElementById("x4").style.visibility="hidden";
+document.getElementById("x5").style.visibility="hidden";
+document.getElementById("x7").style.visibility="hidden";
+document.getElementById("x8").style.visibility="hidden";
+document.getElementById("x9").style.visibility="hidden";
+document.getElementById("x10").style.visibility="hidden";
+document.getElementById("x11").style.visibility="hidden";
+}
+function show7(){
+document.getElementById("x7").style.visibility="visible";
+document.getElementById("x1").style.visibility="hidden";
+document.getElementById("x2").style.visibility="hidden";
+document.getElementById("x3").style.visibility="hidden";
+document.getElementById("x4").style.visibility="hidden";
+document.getElementById("x5").style.visibility="hidden";
+document.getElementById("x6").style.visibility="hidden";
+document.getElementById("x8").style.visibility="hidden";
+document.getElementById("x9").style.visibility="hidden";
+document.getElementById("x10").style.visibility="hidden";
+document.getElementById("x11").style.visibility="hidden";
+}
+function show8(){
+document.getElementById("x8").style.visibility="visible";
+document.getElementById("x1").style.visibility="hidden";
+document.getElementById("x2").style.visibility="hidden";
+document.getElementById("x3").style.visibility="hidden";
+document.getElementById("x4").style.visibility="hidden";
+document.getElementById("x5").style.visibility="hidden";
+document.getElementById("x6").style.visibility="hidden";
+document.getElementById("x7").style.visibility="hidden";
+document.getElementById("x9").style.visibility="hidden";
+document.getElementById("x10").style.visibility="hidden";
+document.getElementById("x11").style.visibility="hidden";
+}
+function show9(){
+document.getElementById("x9").style.visibility="visible";
+document.getElementById("x1").style.visibility="hidden";
+document.getElementById("x2").style.visibility="hidden";
+document.getElementById("x3").style.visibility="hidden";
+document.getElementById("x4").style.visibility="hidden";
+document.getElementById("x5").style.visibility="hidden";
+document.getElementById("x6").style.visibility="hidden";
+document.getElementById("x7").style.visibility="hidden";
+document.getElementById("x8").style.visibility="hidden";
+document.getElementById("x10").style.visibility="hidden";
+document.getElementById("x11").style.visibility="hidden";
+}
+function show10(){
+document.getElementById("x10").style.visibility="visible";
+document.getElementById("x1").style.visibility="hidden";
+document.getElementById("x2").style.visibility="hidden";
+document.getElementById("x3").style.visibility="hidden";
+document.getElementById("x4").style.visibility="hidden";
+document.getElementById("x5").style.visibility="hidden";
+document.getElementById("x6").style.visibility="hidden";
+document.getElementById("x7").style.visibility="hidden";
+document.getElementById("x8").style.visibility="hidden";
+document.getElementById("x9").style.visibility="hidden";
+document.getElementById("x11").style.visibility="hidden";
+}
+function show11(){
+document.getElementById("x10").style.visibility="visible";
+document.getElementById("x1").style.visibility="hidden";
+document.getElementById("x2").style.visibility="hidden";
+document.getElementById("x3").style.visibility="hidden";
+document.getElementById("x4").style.visibility="hidden";
+document.getElementById("x5").style.visibility="hidden";
+document.getElementById("x6").style.visibility="hidden";
+document.getElementById("x7").style.visibility="hidden";
+document.getElementById("x8").style.visibility="hidden";
+document.getElementById("x9").style.visibility="hidden";
+document.getElementById("x10").style.visibility="hidden";
+}
+
+function abc(){
+document.getElementById("x11").style.visibility="hidden";
+document.getElementById("x10").style.visibility="hidden";
+document.getElementById("x9").style.visibility="hidden";
+document.getElementById("x8").style.visibility="hidden";
+document.getElementById("x7").style.visibility="hidden";
+document.getElementById("x6").style.visibility="hidden";
+document.getElementById("x5").style.visibility="hidden";
+document.getElementById("x4").style.visibility="hidden";
+document.getElementById("x3").style.visibility="hidden";
+document.getElementById("x2").style.visibility="hidden";
+document.getElementById("x1").style.visibility="hidden";
+}
+
+</script>
+
+<body>
+<div id="header">
+<div id="logo"><image src="logo1.gif" height="100%" width="100%"></div>
+<div id="name">
+<span id="wm1">W</span>
+<span id="wm2">A</span>
+<span id="wm3">T</span>
+<span id="wm4">E</span>
+<span id="wm5">R</span>
+ 
+<span id="wm6">M</span>
+<span id="wm7">A</span>
+<span id="wm8">G</span>
+<span id="wm9">I</span>
+<span id="wm10">C</span>
+</div>
+<div id="menu">
+<span id="a1" class="c"><a href="index.html">HOME</a></span>
+<span id="a2" class="c"><a href="gallery.html">GALLERY</a></span>
+<span id="a3" class="c"><a href="booking.html">BOOKING</a></span>
+<span id="a4" class="c"><a href="contact.html">CONTACT</a></span>
+<span id="a5" class="c"><a href="about.html">ABOUT</a></span>
+</div>
+</div>
+<div id="middle">
+<image src="f1.jpg" height="100%" width="100%">
+<div id="aa1" class="c1" onclick="show1()">POTABLE WATER</div>
+<div id="aa2" class="c1" onclick="show2()">FRESH WATER</div>
+<div id="aa3" class="c1" onclick="show3()">SALT WATER</div>
+<div id="aa4" class="c1" onclick="show4()">BRACKISH WATER</div>
+<div id="aa5" class="c1" onclick="show5()">HARD WATER</div>
+<div id="aa6" class="c1" onclick="show6()">SOFT WATER</div>
+<div id="aa7" class="c1" onclick="show7()">DISTILLED WATER</div>
+<div id="aa8" class="c1" onclick="show8()">WASTEWATER</div>
+<div id="aa9" class="c1" onclick="show9()">BLACK WATER</div>
+<div id="aa10" class="c1" onclick="show10()">GREY WATER</div>
+<div id="aa11" class="c1" onclick="show11()">RAW WATER</div>
+
+
+<div id="x1" class="b">
+1 . Potable water<br>
+Potable water or drinking water is water fit 
+for human consumption, which has undergone appropriate 
+treatment and can be consumed without any risks. It is clean, 
+transparent, has no unpleasant odour or taste and is free of any contaminants.<br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jetvQ4kIags?si=LGEd_qrm5DU4wvFj" title="YouTube video player" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<image src="p.jpg" height="73%" width="50%">
+<span class="sp" onclick="abc()">x</span>
+</div>
+ <div id="x2" class="b">
+2 . Fresh water<br>
+Fresh water is found naturally on the Earth's surface as ice, as water
+ in wetlands, ponds, lakes, rivers and streams, and as groundwater in 
+ aquifers. It usually has a low concentration of dissolved salts and solids.<br><br>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/oaQCiwzjnCM?si=Sxhe5A0wkwcChLsQ" title="YouTube video player"
+ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+ gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ <image src="f.jpg" height="73%" width="50%">
+<span class="sp" onclick="abc()">x</span>
+</div>
+<div id="x3" class="b">
+3 . Salt water<br>
+It is also called seawater, found in the Earth's oceans and seas. 
+It has a concentration of dissolved salts of about 3.5%.<br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WE_0uWM7g8Y?si=ZUha-inHxXymnMcA" title="YouTube video player" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+ gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ <image src="s.jpg" height="73%" width="50%">
+<span class="sp" onclick="abc()">x</span>
+</div>
+<div id="x4" class="b">
+4 . Brackish water<br>
+The salinity of brackish water is somewhere between that of fresh water
+ and seawater.  The salinity of brackish water is not accurately defined; it can
+ range between 0.5 to 30 grams of salt per litre.<br><br>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/yYaIoYhF7X4?si=6cyhUXYRJuxKQXER" title="YouTube video player" 
+ frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+ encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ <image src="b.jpg" height="73%" width="50%">
+<span class="sp" onclick="abc()">x</span>
+</div>
+<div id="x5" class="b">
+5 . Hard water<br>
+Hard water has a high mineral content, particularly magnesium and calcium 
+salts. It is also known as calcareous water.<br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tm4MQqwMzWQ?si=uqwwx0Z6qVx-Xbh8" title="YouTube video player" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+ encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<image src="h.jpg" height="73%" width="50%">
+<span class="sp" onclick="abc()">x</span>
+</div>
+<div id="x6" class="b">
+6 . Soft water<br>
+Soft water contains  very small amounts of dissolved salts. It may be defined 
+as water with less than 50 mg per litre of calcium carbonate.<br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ebygQes5Wig?si=9quIh_rFEfCeHicx" title="YouTube video player" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+ encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<image src="so.jpg" height="73%" width="50%">
+<span class="sp" onclick="abc()">x</span>
+</div>
+<div id="x7" class="b">
+7 . Distilled water<br>
+Distilled water is composed of H2O molecules, having been purified or
+ cleaned through distillation.<br><br>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/wcgZQNwvnoY?si=Jf8UYLjJCCujc3zn" title="YouTube video player" 
+ frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+ encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ <image src="d.jpg" height="73%" width="50%">
+<span class="sp" onclick="abc()">x</span>
+</div>
+<div id="x8" class="b">
+8 . Wastewater<br>
+Wastewater is any type of water whose quality has been negatively affected by
+ human activity. According to the FAO, the water has no immediate value for the
+ purpose it was used or produced because of its quality, quantity, or the moment at which it is available.
+<br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LctVYQe3eBw?si=ch0L6d3vtdjSdDpV" title="YouTube video player"
+ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+icture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<image src="w.jpg" height="73%" width="50%">
+<span class="sp" onclick="abc()">x</span>
+</div>
+<div id="x9" class="b">
+9 . Black water<br>
+Within the different kinds of used water, black waters are those that have been polluted 
+with faeces or urine .<br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l5eBIGHbXoA?si=ag9V4V7sJFSMQV4-" title="YouTube video player" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<image src="bl.jpg" height="73%" width="50%">
+<span class="sp" onclick="abc()">x</span>
+</div>
+<div id="x10" class="b">
+10 . Grey water<br>
+Grey water is domestic wastewater. It has less nitrogen and phosphorous than black water,
+ and contains organic and inorganic material, and microorganisms. Grey water owes its name
+ to its murky appearance and because it is somewhere between potable freshwater and wastewater.<br><br>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/eiKHDndNT0E?si=InQRPL6Ak2U39Ek3" title="YouTube 
+ video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+ web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ <image src="g.jpg" height="73%" width="50%">
+<span class="sp" onclick="abc()">x</span>
+</div>
+<div id="x11" class="b">
+11 . Raw water<br>
+Raw water is water that has not undergone any treatment. It is found in natural sources
+ and reserves, in surface and groundwater bodies.<br><br>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/BtrN9YhZo_o?si=aBEZ6X55Mxj0cCd7" title="YouTube video player" 
+ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+ picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ <image src="r.jpg" height="73%" width="50%">
+<span class="sp" onclick="abc()">x</span>
+</div>
+</div>
+<div id="footer">
+<div id="ff1">@copyright Water | Water magic| Address: Lalpur,Ranchi, Ph : 86030 00160</div>
+<div id="ff2">Website:https://www.watermagic.com/</div>
+<div id="f1">
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="gallery.html">GALLERY</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="booking.html">BOOKING</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+</ul>
+</div>
+</div>
+</body>
