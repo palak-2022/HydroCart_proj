@@ -1,0 +1,34 @@
+6. Future Workflow
+Jab bhi changes karoge:
+
+bash
+git add filename
+git commit -m "Describe your changes"
+git push
+
+use TestDB
+switched to db TestDB
+db["Players"].find()
+{
+  _id: ObjectId('69d7c81d7081f13a2c408b98')
+}
+exit()
+MongoshUnimplementedError: [COMMON-90002] the exit/quit commands are not supported for current platform: Compass
+1+2
+3
+"palak".toUpperCase()
+PALAK
+show dbs
+TestDB   80.00 KiB
+admin    40.00 KiB
+config  108.00 KiB
+local    40.00 KiB
+use college
+switched to db college
+show dbs
+TestDB   80.00 KiB
+admin    40.00 KiB
+config  108.00 KiB
+local    40.00 KiB
+show collections
+db.student.insertOne({name:palak}, age:22, marks=78)
