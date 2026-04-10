@@ -6,6 +6,7 @@ width:100%;
 height:15%;
 left:0%;
 top:0%;
+box-shadow:0px 0px 10px #898c8c;
 }
 #middle{
 position:absolute;
@@ -14,105 +15,7 @@ width:100%;
 height:75%;
 left:0%;
 top:15%;
-box-shadow:10px 10px 10px #898c8c;
-
-}
-#sp{
-background-color:transparent;
-position:absolute;
-left:0%;
-top:0%;
-width:50%;
-height:100%;
-text-align:center;
-line-height:100px;
-color:white;
-font-size:6vw;
-font-family:brush script mt;
-}
-#sp1
-{
-position:absolute;
-color:rgba(62, 43, 71);
-top:18%;
-left:12%;
-width:30%;
-height:60%;
-font-size:2.3vw;
-font-family:berlin sans fb;
-}
-
-.c1{
-position:absolute;
-left:98%;
-height:20%;
-width:20%;
-opacity:0.5;
-transition:1s;
-}
-.c1:hover{left:95%;opacity:1;}
-#facebook{top:50%;}
-#google{top:60%;}
-#instagram{top:70%;}
-#youtube{top:80%;}
-
-#enquiry{
-position:absolute;
-top:90%;
-left:98%;
-height:20%;
-width:20%;
-opacity:0.5;
-transition:1s;
-}
-#enquiry:hover{left:95%;opacity:1;}
-
-#aa1{
-background-color:rgba(162,184,179,0.5);
-position:absolute;
-right:5%;
-top:20%;
-width:30%;
-height:60%;
-font-size:1.5vw;
 box-shadow:0px 0px 10px #898c8c;
-visibility:hidden;
-}
-
-#form{
-position:absolute;
-left:10%;
-top:15%;
-width:80%;
-height:70%;
-}
-input[type="text"]{
-background-color:rgba(88,122,122,0.1);
-border:none;
-border-bottom:1px solid red;
-color:white;
-text-shadow:1px 1px 3px black; 
-font-size:1.3vw;
-outline:none;
-}
-button{
-background-color:rgba(100,100,100,0.3);
-border:none;
-border-bottom:1px solid red;
-color:#036e6e;
-font-size:1.3vw;
-outline:none;
-color:white;
-}
-button:hover{
-background-color:black;
-border:none;
-border-bottom:1px solid red;
-color:#036e6e;
-font-size:1.3vw;
-outline:none;
-color:white;
-border-radius:5px;
 }
 #footer{
 position:absolute;
@@ -121,6 +24,7 @@ width:100%;
 height:10%;
 left:0%;
 top:90%;
+box-shadow:0px 0px 10px #898c8c;
 }
 #ff1
 {
@@ -189,13 +93,12 @@ list-style:none;
    display:block;
    }
 
-#address{
+#logo{
 position:absolute;
-height:50%;
-width:50%;
+width:20%;
+height:100%;
 left:0%;
-top:5%;
-color:blue;
+top:0%;
 }
 #logo{
 position:absolute;
@@ -320,8 +223,7 @@ text-align:center;
 font-size:1.5vw;
 border-top-left-radius:10px;
 border-bottom-right-radius:10px;
-box-shadow:0px 0px 5px gray;
- 
+box-shadow:0px 0px 5px gray; 
 }
 .c:hover{background-color:gray;}
 #a1{left:5%;}
@@ -330,50 +232,70 @@ box-shadow:0px 0px 5px gray;
 #a4{left:65%;}
 #a5{left:85%;}
 
-
-
-#middle{
+.gc{
 position:absolute;
-width:100%;
-height:100%;
-left:0%;
-top:0%;
-z-index:-1;
-}
-
-#menu{
-position:absolute;
-width:50%;
-height:100%;
-left:50%;
-top:3%;
-}
-
-.c{
-position:absolute;
-background-color:none;
-color:black;
-width:120px;
-height:40px;
-line-height:40px;
-text-align:center;
-font-size:1.5vw;
-
-}
-.c:hover{background-color:gray;}
-#a1{left:5%;}
-#a2{left:25%;}
-#a3{left:45%;}
-#a4{left:65%;}
-#a5{left:85%;}
-
-#sp{
-background-color:transparent;
-position:absolute;
-left:5%;
-top:10%;
-width:100%;
 height:20%;
+width:10%;
+left:5%;
+overflow:hidden;
+border-top:5px solid  #2e2524;
+border-right:5px solid  #2e2524;
+border-bottom:5px solid  #2e2524;
+border-left:5px solid  #2e2524;
+}
+#ga1{top:3%;}
+#ga2{top:27%;}
+#ga3{top:52%;}
+#ga4{top:75%;}
+
+.gc1{
+position:absolute;
+height:20%;
+width:10%;
+left:20%;
+border-top:5px solid #2e2524;
+border-right:5px solid #2e2524;
+border-bottom:5px solid #2e2524;
+border-left:5px solid  #2e2524;
+}
+#ga5{top:3%;}
+#ga6{top:27%;}
+#ga7{top:52%;}
+#ga8{top:75%;}
+.gc2{
+position:absolute;
+height:20%;
+width:10%;
+left:35%;
+border-top:5px solid  #2e2524;
+border-right:5px solid  #2e2524;
+border-bottom:5px solid  #2e2524;
+border-left:5px solid  #2e2524;
+}
+#ga9{top:3%;}
+#ga10{top:27%;}
+#ga11{top:52%;}
+#ga12{
+position:absolute;
+left:48%;
+top:5%;
+height:85%;
+width:50%;
+border-top:5px solid  #2e2524;
+border-right:5px solid  #2e2524;
+border-bottom:5px solid  #2e2524;
+border-left:5px solid  #2e2524;
+}
+#ga13{
+position:absolute;
+background-color:rgba(0,0,255,0.5);
+right:15%;
+top:65%;
+height:30%;
+width:70%;
+text-align:center;
+line-height:60px;
+font-family:arial black;
 font-size:3vw;
 color:white;
 }

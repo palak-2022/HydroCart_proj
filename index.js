@@ -88,3 +88,20 @@ document.getElementById("sp").innerHTML=b[i];
 document.getElementById("sp1").innerHTML=c[i];
 setTimeout('slide()',2000);
 }
+
+
+
+var a=new Array("1.jpg","2.jpg","3.jpg","5.jpg","p.jpg");
+var b=new Array("1.Potable water","1.Potable water","1.Potable water","1.Potable water","1.Potable water");
+i=0;
+function slide(){
+if(i<4){
+i++;
+}
+else{
+i=0;
+}
+document.getElementById("i").src=a[i];
+document.getElementById("sp").innerHTML=b[i];
+
+}
